@@ -3,7 +3,7 @@ json based mouse control
 
 this program allows yuou sto save mouse control macro in json file 
 
-save write your macro in `mouse.json` file and run with `python3 main.py` comand
+save write your macro in `mouse.json` file and run with `python3 main.py` command
 
 ## mouse.json file structure:
 
