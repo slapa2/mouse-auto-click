@@ -26,7 +26,7 @@ class Mouse:
             MouseAction.MOVE: self._move,
         }
 
-    def action(self, action: str, params: Dict = None, sleep_time: int = 0.5) -> None:
+    def action(self, action: str, params: Dict = None, sleep_time: float = 0.5) -> None:
         """ this metod executs action with given parameters
 
         Args:
