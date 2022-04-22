@@ -2,7 +2,7 @@
 Run this script to start mouse actoons from mouse.json file.
 """
 import json
-from mouse import Mouse, MouseAction
+from mouse import Mouse
 
 
 def main() -> None:
@@ -13,9 +13,9 @@ def main() -> None:
 
     for event in mouse_script:
         mouse.action(
-            MouseAction[event.get('action')],
+            event.get('action'),
             event.get('params'),
-            event.get('sleep_time')
+            event.get('sleep_time', 0.5)
         )
 
 
