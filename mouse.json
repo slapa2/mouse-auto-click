@@ -1,4 +1,52 @@
 [
-    {},
-    {}
+    {
+        "action": "CLICK",
+        "params": {
+            "button": "left"
+        }
+    },
+    {
+        "action": "SET_POSITION",
+        "params": {
+            "x_position": 100,
+            "y_position": 200
+        }
+    },
+    {
+        "action": "CLICK",
+        "params": {
+            "button": "left",
+            "click_number": 1
+        }
+    },
+    {
+        "action": "MOVE",
+        "params": {
+            "x_move": 400,
+            "y_move": 400
+        },
+        "sleep_time": 2
+    },
+    {
+        "action": "CLICK",
+        "params": {
+            "button": "right",
+            "click_number": 3
+        }
+    },
+    {
+        "action": "SET_POSITION",
+        "params": {
+            "x_position": 540,
+            "y_position": 700
+        },
+        "sleep_time": 4
+    },
+    {
+        "action": "CLICK",
+        "params": {
+            "button": "right",
+            "click_number": 3
+        }
+    }
 ]
