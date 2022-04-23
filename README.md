@@ -39,5 +39,5 @@ CLICK: button: ["left"/"right"], click_number: integer
 ### sleep_time: integer or number
 time to vait after action it is optional parameter defalut value = 0.5s
 
-
+---
 project inspired by [pycamp.pl](https://www.pycamp.pl/)
